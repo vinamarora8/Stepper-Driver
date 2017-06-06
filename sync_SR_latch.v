@@ -4,7 +4,7 @@ module sync_SR_latch(clk, s, r, p, c, q);
 input clk, s, r, p, c;
 output reg q;
 
-// Initiating registers
+// Initializing registers
 initial
 	q = 1'b0;
 
